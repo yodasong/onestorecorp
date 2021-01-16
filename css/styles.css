@@ -6178,7 +6178,7 @@ input[type=button].btn-block {
     flex-direction: row;
   }
   .navbar-expand-sm .navbar-nav .dropdown-menu {
-    position: absolute;
+    position: relative;
   }
   .navbar-expand-sm .navbar-nav .nav-link {
     padding-right: 0.5rem;
