@@ -5268,7 +5268,7 @@ input[type=button].btn-block {
   width: 100%;
   padding: 0.25rem 1.5rem;
   clear: both;
-  font-weight: 400;
+  font-weight: 500;
   color: #212832;
   text-align: inherit;
   white-space: nowrap;
@@ -6178,7 +6178,7 @@ input[type=button].btn-block {
     flex-direction: row;
   }
   .navbar-expand-sm .navbar-nav .dropdown-menu {
-    position: relative;
+    position: absolute;
   }
   .navbar-expand-sm .navbar-nav .nav-link {
     padding-right: 0.5rem;
@@ -6372,7 +6372,7 @@ input[type=button].btn-block {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.8);
 }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
   color: rgba(0, 0, 0, 0.7);
@@ -15768,7 +15768,7 @@ button.bg-danger-soft:focus {
   }
 
   .p-lg-5 {
-    padding: 3rem !important;
+    padding: 2rem !important;
   }
 
   .pt-lg-5,
@@ -18067,7 +18067,7 @@ button.bg-danger-soft:focus {
 }
 
 .text-primary {
-  color: #0061f2 !important;
+  color: #BBB !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -19312,8 +19312,8 @@ body {
 }
 
 .text-uppercase-expanded, .navbar .dropdown-menu .dropdown-header {
-  font-weight: 700;
-  letter-spacing: 0.15em;
+  font-weight: 400;
+  letter-spacing: 0em;
   text-transform: uppercase;
 }
 
@@ -20610,10 +20610,10 @@ body {
 
 .navbar .dropdown-menu {
   top: calc(100% + 0.5rem + 0.5rem) !important;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .navbar .dropdown-menu .dropdown-header {
-  font-size: 0.7rem;
+  font-size: 1rem;
   color: #a7aeb8;
 }
 
@@ -20636,7 +20636,7 @@ body {
   font-weight: bold;
 }
 .navbar-marketing .navbar-brand img {
-  height: 1rem;
+  height: 1.8rem;
 }
 .navbar-marketing .navbar-brand svg {
   height: 1rem;
@@ -20648,6 +20648,8 @@ body {
 }
 .navbar-marketing .navbar-nav .nav-item .nav-link {
   font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: -0.08em;
 }
 .navbar-marketing.fixed-top, .page-header.navbar-fixed .navbar-marketing.navbar {
   max-height: 100vh;
@@ -20957,12 +20959,12 @@ body {
   }
 
   .dropdown-lg .dropdown-menu {
-    min-width: 30rem;
+    min-width: 15rem;
     overflow: hidden;
   }
 
   .dropdown-xl .dropdown-menu {
-    min-width: 45rem;
+    min-width: 15rem;
   }
 }
 i-feather {
@@ -21265,6 +21267,8 @@ section {
 .page-header .page-header-content .page-header-title {
   font-size: 2.5rem;
   letter-spacing: -0.05em;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 .page-header .page-header-content .page-header-text {
   font-size: 1.15rem;
